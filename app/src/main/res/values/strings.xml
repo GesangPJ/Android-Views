@@ -1,0 +1,151 @@
+<resources>
+    <string name="app_name">Gesang-View</string>
+
+    <string name="keterangan1">Klik tombol untuk melihat view lain</string>
+    <string name="keterangan2">Halaman kedua</string>
+    <string name="tombol7judul">Widget-ImageButton</string>
+    <string name="tombol1judul">Widget-TextView</string>
+    <string name="tombol2judul">Custom Fonts</string>
+    <string name="tombol3judul">Custom Widget Button</string>
+    <string name="tombol4judul">Explicit Intent Button</string>
+    <string name="tombol5judul">Implicit Intent Button</string>
+    <string name="tombol6judul">Widget-ImageView</string>
+    <string name="tombol8judul">Widget-EditText</string>
+    <string name="tombol9judul">Password View</string>
+    <string name="tombol10judul">TextWatcher</string>
+    <string name="tombol11judul">Widget Toast</string>
+    <string name="tombol12judul">Empty Warning</string>
+    <string name="tombol13judul">Widget Checkbox</string>
+    <string name="tombol14judul">Checkbox ganti warna</string>
+    <string name="tombol15judul">Widget Radio Button</string>
+    <string name="tombol16judul">Drop Down</string>
+    <string name="tombolnext"><![CDATA[NEXT >]]></string>
+    <string name="tombolbalik"><![CDATA[<BACK]]></string>
+    <string name="tombol17judul">Widget-DatePicker</string>
+    <string name="tombol18judul">Widget-TimePicker</string>
+    <string name="tombol19judul">Widget-SwitchButton</string>
+    <string name="tombol20judul">Toggle Button</string>
+    <string name="tombol21judul">Widget-DigitalClock</string>
+    <string name="tombol22judul">Widget-AnalogClock</string>
+    <string name="tombol23judul">Widget-ZoomControls</string>
+    <string name="tombol24judul">Circular progress bar</string>
+    <string name="tombol25judul">rating bar</string>
+    <string name="tombol26judul">seek bar</string>
+    <string name="tombol27judul">progress bar</string>
+    <string name="tombol28judul">AutoComplete Text</string>
+    <string name="tombol29judul">Multi AutoComplete Text</string>
+    <string name="tombol30judul">Popup Window</string>
+    <string name="tombol31judul">Video View</string>
+    <string name="tombol32judul">Spinner Drop Down</string>
+    <string name="tombolbiru">TOMBOL WARNA BIRU</string>
+    <string name="tombolkiri">Tombol icon kiri</string>
+    <string name="tombolkanan">Tombol icon kanan</string>
+    <string name="tombolbulat">tombol bulat</string>
+    <string name="judultombolkustom">View Tombol Kustom</string>
+    <string name="judulutama">GESANG VIEW</string>
+    <string name="judulintentkedua">Explicit Intent View</string>
+    <string name="intentkedua">Intent Kedua</string>
+    <string name="kembali"><![CDATA[< Kembali]]></string>
+    <string name="halaman_utama">Halaman Utama</string>
+    <string name="judulexplicit">Explicit Intent View</string>
+    <string name="explicitpertama">Intent Pertama</string>
+    <string name="intent_lain"><![CDATA[Intent Lain >]]></string>
+    <string name="tombollanjut"><![CDATA[>>]]></string>
+    <string name="tombolsebelum"><![CDATA[<<]]></string>
+    <string name="JudulGambar">ImageView</string>
+    <string name="deskripsi1">Gambar Mobil</string>
+    <string name="judultombolgambar">Image Button</string>
+    <string name="ini_deskripsi">Ini Deskripsi</string>
+    <string name="print">PRINT</string>
+    <string name="judulvieweditteks">EditText View</string>
+    <string name="namadepan">First Name</string>
+    <string name="namabelakang">Last Name</string>
+    <string name="judulhalamanpassword">Hide Password View</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="judultekspenglihat">TextWatcher View</string>
+    <string name="login">Login</string>
+    <string name="passwordhint">PasswordHint</string>
+    <string name="enter">ENTER</string>
+    <string name="congratulations">CONGRATULATIONS</string>
+    <string name="welcome">Welcome</string>
+    <string name="tekan_tombol">TEKAN TOMBOL</string>
+    <string name="view_toast">VIEW TOAST</string>
+    <string name="judulkosong">Empty Warning View</string>
+    <string name="view_color_checkbox">View Color CheckBox</string>
+    <string name="silver">Silver</string>
+    <string name="blue">Blue</string>
+    <string name="black">Black</string>
+    <string name="yellow">Yellow</string>
+    <string name="red">Red</string>
+    <string name="change">CHANGE</string>
+    <string name="view_radio_button">View Radio Button</string>
+    <string name="choose_wisely">Choose wisely</string>
+    <string name="python">Python</string>
+    <string name="java">Java</string>
+    <string name="dropdown_view">Dropdown View</string>
+    <string name="view_datepicker">View DatePicker</string>
+    <string name="g_paudra">G-PAUDRA</string>
+    <string name="display_date">Display Date</string>
+    <string name="change_date">Change Date</string>
+    <string name="time_picker_view">Time Picker View</string>
+    <string name="change_time">Change TIME</string>
+    <string name="current_time">Current Time</string>
+    <string name="switchbutton_view">Engine Control Panel</string>
+    <string name="battery">Battery</string>
+    <string name="apu">APU</string>
+    <string name="engine_3">Engine 3</string>
+    <string name="engine_4">Engine 4</string>
+    <string name="engine_2">Engine 2</string>
+    <string name="engine_1">Engine 1</string>
+    <string name="ups">UPS</string>
+    <string name="control_panel">Control Panel</string>
+    <string name="network_a">Network-A</string>
+    <string name="network_b">Network-B</string>
+    <string name="digital_clock_view">Digital Clock View</string>
+    <string name="analog_clock_view">Analog Clock View</string>
+    <string name="zoom_control_view">Zoom Control View</string>
+    <string name="progress_bar">Progress Bar</string>
+    <string name="configuring">configuring...</string>
+    <string name="tanya_rate">What do you think about this App?</string>
+    <string name="rating_view">Rating View</string>
+    <string name="submit">submit</string>
+    <string name="seekbar_view">SeekBar View</string>
+    <string name="full_progress_bar_view">Bitcoin Miner</string>
+    <string name="foldingnow">Use your phone power to Start Mining now!</string>
+    <string name="start_folding">Start MINING</string>
+    <string name="inputjob">Please input your Job</string>
+    <string name="autocomplete_text_view">AutoComplete Text View</string>
+    <string name="autocomplete_multiline">AutoComplete Multiline</string>
+    <string name="inputparts">Please input list of GPU and CPU</string>
+    <string name="network_b_is_off">Network B is Off</string>
+    <string name="ups_is_off">UPS is Off</string>
+    <string name="battery_is_off">Battery is Off</string>
+    <string name="network_a_is_off">Network A is Off</string>
+    <string name="popup_view">PopUp View</string>
+    <string name="show">Show</string>
+    <string name="video_view">Video View</string>
+    <string name="spinnerdropdown_view">SpinnerDropDown View</string>
+    <string name="pilihopsi">Please choose an option from above</string>
+    <string-array name="android_dropdown_arrays">
+        <item>Select</item>
+        <item>Python</item>
+        <item>Kotlin</item>
+        <item>Java</item>
+        <item>C</item>
+
+    </string-array>
+    <string-array name="ListParts">
+        <item>ASUS RTX3090 STRIX</item>
+        <item>ASUS TUF RTX3090</item>
+        <item>MSI RTX3090 GamingX TRIO</item>
+        <item>MSI RTX3090 VENTUS OC</item>
+        <item>ASUS RTX3080 STRIX</item>
+        <item>ASUS TUF RTX3080 </item>
+        <item>MSI RTX3080 GamingX TRIO</item>
+        <item>MSI RTX3080 VENTUS OC</item>
+    </string-array>
+
+
+</resources>

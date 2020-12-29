@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gpaudra.gesangsview">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.DayNight.DarkActionBar">
+        <activity android:name=".DropBawah"></activity>
+        <activity android:name=".LihatVideo" />
+        <activity android:name=".JendelaPop" />
+        <activity android:name=".PopAtas" />
+        <activity android:name=".AutoBanyak" />
+        <activity android:name=".AutoSelesai" />
+        <activity android:name=".ProgressKotak" />
+        <activity android:name=".CariBar" />
+        <activity android:name=".Penilaian" />
+        <activity android:name=".ProgresBulet" />
+        <activity android:name=".KontrolZoom" />
+        <activity android:name=".JamAnalog" />
+        <activity android:name=".JamDigital" />
+        <activity android:name=".TombolTogel" />
+        <activity android:name=".TombolSwitch" />
+        <activity android:name=".AmbilWaktu" />
+        <activity android:name=".AmbilTanggal" />
+        <activity android:name=".TurunKebawah" />
+        <activity android:name=".TombolRadio" />
+        <activity android:name=".PilihWarna" />
+        <activity android:name=".CekBox" />
+        <activity android:name=".Kosong" />
+        <activity android:name=".WidgetToast" />
+        <activity android:name=".SuksesLogin" />
+        <activity android:name=".TeksPenglihat" />
+        <activity android:name=".HiddenPassword" />
+        <activity android:name=".EditTeks" />
+        <activity android:name=".TombolGambar" />
+        <activity android:name=".LihatGambar" />
+        <activity android:name=".ImplicitIntent" />
+        <activity android:name=".IntentLain" />
+        <activity android:name=".explicitbutton" />
+        <activity android:name=".tombolkustom" />
+        <activity android:name=".CustomFonts" />
+        <activity android:name=".LihatTeks" />
+        <activity android:name=".HalamanKedua" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

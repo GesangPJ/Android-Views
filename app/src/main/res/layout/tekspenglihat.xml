@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".TeksPenglihat">
+
+    <EditText
+        android:id="@+id/inusername2"
+        android:layout_width="235dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="79dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/username"
+        android:inputType="textPersonName"
+        android:text=""
+        android:textColor="#F1EEEE"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/inpassword2"
+        android:layout_width="235dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="79dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="#F3EDED"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inusername2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="75dp"
+        android:fontFamily="@font/audiowide"
+        android:text="@string/judultekspenglihat"
+        android:textColor="#F6F0F0"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="168dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/login"
+        android:textColor="#F3ECEC"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <Button
+        android:id="@+id/masukakun"
+        android:layout_width="169dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="196dp"
+        android:fontFamily="@font/didact_gothic"
+        android:onClick="cetakmasuk"
+        android:text="@string/enter"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passhint" />
+
+    <TextView
+        android:id="@+id/passhint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="225dp"
+        android:text="@string/passwordhint"
+        android:textColor="#EFEDED"
+        app:layout_constraintBottom_toTopOf="@+id/masukakun"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inpassword2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="283dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="66dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/judulutama"
+        android:textAlignment="center"
+        android:textColor="#F6F5F5"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/tombol17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol17judul"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/tombol18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints,SmallSp" />
+
+    <Button
+        android:id="@+id/tombol19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol19judul"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/tombol20"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol18"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol20judul"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/tombol21"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol19"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol21judul"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/tombol22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol20"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol22judul"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/tombol23"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol21"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol23judul"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/tombol24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol22"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol24judul"
+        android:textSize="10sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol23"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="14dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol18judul"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toTopOf="@+id/tombol19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol17"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol25judul"
+        android:textAlignment="textEnd"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol32judul"
+        android:textAlignment="textEnd"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol31"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombolbalik"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="157dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="158dp"
+        android:layout_marginBottom="80dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombolbalik"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol24"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/tombol31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol31judul"
+        android:textAlignment="textEnd"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol30"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol26judul"
+        android:textAlignment="textEnd"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol25"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol27judul"
+        android:textAlignment="textEnd"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol26"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol28judul"
+        android:textAlignment="textEnd"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol27"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol29judul"
+        android:textAlignment="textEnd"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol28"
+        tools:ignore="SmallSp" />
+
+    <Button
+        android:id="@+id/tombol30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="15dp"
+        android:fontFamily="@font/didact_gothic"
+        android:text="@string/tombol30judul"
+        android:textAlignment="textEnd"
+        android:textSize="10sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tombol29"
+        tools:ignore="SmallSp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

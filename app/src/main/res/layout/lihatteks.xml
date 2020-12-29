@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@color/cardview_dark_background"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini teks kecil"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="#F4EFEF" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Ini teks medium"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#F3EEEE" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ini Teks Besar"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#F6F1F1" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Teks Simple"
+        android:textColor="#F1EDED" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Teks yang tebal dan ukuran 18sp"
+        android:textColor="#EFEAEA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:text="Teks dengan warna kuning"
+        android:textColor="#FFD600"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:background="#ccc"
+        android:gravity="center"
+        android:text="Teks ditengah dengan Gravity Center"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
